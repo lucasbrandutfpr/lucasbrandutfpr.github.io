@@ -1,0 +1,77 @@
+/* fundo e espaçamento */
+body {
+  background-color: #f0f4f8;
+  color: #333;
+  line-height: 1.5;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+/* container principal */
+.principal {
+  max-width: 90%;
+  margin: 0 auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* alfa ajuda no preto */
+}
+
+/* titulo */
+#titulo h1 {
+  text-align: center;
+  color: #060C0C;
+  font-size: 2em;
+  margin-bottom: 20px;
+  border-bottom: 2px solid darkcyan;
+  padding-bottom: 10px;
+}
+
+/* dando espaço entre as linhas */
+.texto p {
+  font-size: 1.01em;
+  margin-bottom: 20px;
+  text-align: justify;
+  color: black;
+}
+
+/* pra lista ficar bonita */
+.lista ul {
+  list-style-type: square;
+  padding-left: 40px;
+  margin-bottom: 20px;
+}
+
+.lista li {
+  color: #8e24aa;
+  margin-bottom: 10px;
+  font-size: 1.05em;
+}
+
+.lista li a {
+  color: inherit;       
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.lista li a:hover {
+  color: darkcyan;      
+  text-decoration: underline;
+}
+
+
+/* textinho final */
+#final {
+  font-weight: bold;
+  text-align: right;
+  margin-top: 30px;
+  color: #2d3436;
+}
+
+#social  {
+  display: flex;
+  align-items: center;
+  gap: 9px; 
+  font-weight: bold;
+  justify-content: flex-end;
+}
